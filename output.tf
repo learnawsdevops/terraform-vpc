@@ -4,7 +4,7 @@ output "all_availability_zones" {
 }
 
 output "default_vpc_id" {
-  value = data.aws_vpc.default.id
+  value = aws_vpc.main.id
 
 }
 
