@@ -3,7 +3,7 @@ output "all_availability_zones" {
 
 }
 
-output "default_vpc_id" {
+output "vpc_id" {
   value = aws_vpc.main.id
 
 }
